@@ -37,7 +37,8 @@ img {
 }
 
 .heading {
-    width:960px;
+    height:125px;
+    width:100%;
     margin:auto;
     border:5px;
     border-color:#cccccc
@@ -48,15 +49,23 @@ img {
     vertical-align:middle;
     font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
     font-size:16px;
+    color:#cccccc;
 }
 
 .headingbackground  {
     background-color:#ffffff;
     vertical-align:top;
     height:125px;
+    width:960px;
 }
 
 .bodytext {
     font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
     font-size:16px;
+}
+
+a:link, a:visited {
+    text-decoration:none;
+    font-family:"Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size:18px;
 }
