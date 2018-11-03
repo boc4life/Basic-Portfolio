@@ -60,16 +60,42 @@ li  {
     background-color:#cccccc;
   }
 
-img {
+#imgleft {
     float:left;
     margin-right:20px;
     margin-bottom:10px;
     }
 
+.portimage  {
+    float:left;
+    margin:20px;
+    }
+
+.container  {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float:left;
+    position:relative;
+}
+
+.text-block  {
+    text-align:center;
+    position:absolute;
+    bottom:25px;
+    left:20px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:360px;
+    height:60px;
+    font-size:20px;
+    line-height:60px;
+}
+
 #bodybackground  {
     width:100%;
     height:100%;
     background-image: url("https://img.freepik.com/free-photo/white-wall_1194-5956.jpg?size=338&ext=jpg");
+    background-repeat:repeat;
+    margin-bottom:40px;
 }
 
 .bodyheading {
@@ -127,7 +153,6 @@ textarea  {
     resize:none;
 }
 
-
 form  {
     padding:15px;
     line-height:1.6;
@@ -140,5 +165,8 @@ button {
     height:50px;
     width:140px;
     font-size:18px;
+}
 
+.push   {
+    clear:both;
 }
